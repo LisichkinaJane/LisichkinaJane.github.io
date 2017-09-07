@@ -40,7 +40,6 @@ tab-active- active tab
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
-    background: url(../images/catmenu-bg.gif) repeat-x left top,url(../images/catmenu-bg-2.gif) no-repeat right center;
     border-bottom: 9px solid #b41943;
     display: table-cell;
     height: 60px;
@@ -108,7 +107,6 @@ tab-active- active tab
 }
 
 .catalog-menu .menu>li.all-menu>a:before {
-    background-image: url(../images/sprite.png);
     background-repeat: no-repeat;
     background-position: 0 -44px;
     height: 18px;
@@ -147,7 +145,6 @@ tab-active- active tab
   }
 
 .catalog-menu .menu>li.action-menu a:before {
-    background-image: url(../images/sprite.png);
     background-repeat: no-repeat;
     background-position: -1px -64px;
     height: 18px;
@@ -171,9 +168,7 @@ tab-active- active tab
     transform-style: preserve-3d;
 }
 
-.catalog-menu .menu>li:nth-last-child(2) {
-    background: url(../images/catmenu-bg.gif) repeat-x left top
-}
+
 
 .catalog-menu .menu>li:hover {
     border-bottom-color: #8a1031
@@ -248,7 +243,6 @@ tab-active- active tab
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: url(../images/sprite.png) no-repeat 5px -124px #dadada;
     height: 14px;
     right: 10px;
     top: 17px;
